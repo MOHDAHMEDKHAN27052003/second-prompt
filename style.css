@@ -1,0 +1,104 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body, html{
+    height: 100%;
+    width: 100%;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding:33px 100px;
+}
+
+
+header h1{
+    color: blue;
+    font-size: 37px;
+}
+
+#left-nav{
+    display: flex;
+    gap: 75px;
+    font-size: x-large;
+}
+
+#left-nav a{
+    text-decoration: none;
+    color: black;
+}
+
+#right-nav{
+    display: flex;
+    gap: 75px;
+    align-items: center;
+}
+
+#right-nav a{
+    text-decoration: none;
+    color: black;
+    font-size: large;
+}
+
+#right-nav button{
+    color: white;
+    padding: 10px 20px;
+    border: 1px;
+    border-radius: 33%;
+    font-size: larger;
+    background-color: blue;
+}
+
+main{
+    background-color: aliceblue;
+}
+
+#content{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    padding-top: 50px;
+}
+
+#content h1{
+    font-size: 66px;
+}
+
+#content p{
+    font-size: larger;
+    padding: 33px 392px;
+}
+
+#search-bar{
+    border: 1px solid;
+    margin-left: 550px;
+    margin-right: 550px;
+    padding: 15px;
+    border-radius: 10%;
+}
+
+#places{
+    display: flex;
+    padding:100px;
+}
+
+#places img{
+    width: 225px;
+    border: 1px;
+    border-radius: 45%;
+}
+
+#places h1{
+    font-size: x-large;
+    margin-bottom: 25px;
+}
+
+.description{
+    margin: 50px;
+}
