@@ -1,0 +1,53 @@
+/* low res laptops */
+@media screen and (max-width: 1250px) {
+    .ri-menu-line{
+        display: initial;
+    }
+
+    #left-nav, #right-nav{
+        display: none;
+    }
+
+    #places{
+        flex-wrap: wrap;
+    }
+
+    .place{
+        margin-top: 50px;
+    }
+}
+
+/* tablets */
+@media screen and (max-width: 1024px) {
+    #content p{
+        padding: 33px 125px;
+    }
+}
+
+/* mobile */
+@media screen and (max-width: 720px) {
+    header{
+        padding:33px 50px;
+    }
+
+    #content h1{
+        font-size: 33px;
+    }
+
+    #content p{
+        padding: 33px;
+    }
+
+    #places{
+        flex-wrap: wrap;
+        padding: 75px;
+    }
+
+    .place{
+        flex-wrap: wrap;
+    }
+
+    .place .description{
+        padding: 0;
+    }
+}

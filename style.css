@@ -17,15 +17,17 @@ header{
     padding:33px 100px;
 }
 
-
 header h1{
     color: blue;
     font-size: 37px;
 }
 
-#left-nav{
+#left-nav, #right-nav{
     display: flex;
     gap: 75px;
+}
+
+#left-nav{
     font-size: x-large;
 }
 
@@ -35,8 +37,6 @@ header h1{
 }
 
 #right-nav{
-    display: flex;
-    gap: 75px;
     align-items: center;
 }
 
@@ -53,6 +53,10 @@ header h1{
     border-radius: 33%;
     font-size: larger;
     background-color: blue;
+}
+
+.ri-menu-line{
+    display: none;
 }
 
 main{
@@ -75,30 +79,31 @@ main{
     padding: 33px 392px;
 }
 
-#search-bar{
-    border: 1px solid;
-    margin-left: 550px;
-    margin-right: 550px;
+input{
     padding: 15px;
-    border-radius: 10%;
+    border: 1px solid;
+    border-radius: 5%;
 }
 
 #places{
     display: flex;
-    padding:100px;
+    padding: 100px;
 }
 
-#places img{
+.place{
+    display: flex;
+}
+
+.place img{
     width: 225px;
     border: 1px;
-    border-radius: 45%;
+    border-radius: 50%;
 }
 
-#places h1{
-    font-size: x-large;
+.place .description{
+    padding: 50px;
+}
+
+.place h1{
     margin-bottom: 25px;
-}
-
-.description{
-    margin: 50px;
 }
